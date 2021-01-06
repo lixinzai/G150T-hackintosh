@@ -18,3 +18,6 @@ opencore0.6.4 BigSur11.1 DW1820A模拟BCM4350
 如需使用iMessage需注入三码
 
 待解决问题：HD4600已驱动但内部屏有屏闪问题，在BigSur以下版本无此问题
+已解决！！（bigsur下会屏闪的更换显卡id：0D260007或者bios下UEFI开启CSM）
+
+理论上4代U通用，测试了多台机子，如不是DW1820A的需删除kexts下bcrm驱动。
